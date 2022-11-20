@@ -60,7 +60,7 @@
                     <p>自我介绍：</p>
                     <p>昵称：冰糖</p>
                     <p>性别：男</p>
-                    <p>年龄：22岁</p>
+                    <p id="showage">年龄：xx岁</p>
                     <p>地址：云南，中国</p>
                     <span style="color: rgb(0, 190, 0);">root@NotNoneX</span>
                     <span style="color: blue;">~</span>
@@ -127,6 +127,13 @@
             hitokoto.innerText = data.hitokoto + '\n---' +data.from
         })
     .catch(console.error)
+    </script>
+    <script>
+        var birth = 1999;
+        var nowYear = new Date().getFullYear();
+        var age = nowYear - birth;
+        var ageText = "年龄："+ age + "岁"
+        document.getElementById("showage").innerText = ageText;
     </script>
 </body>
 
