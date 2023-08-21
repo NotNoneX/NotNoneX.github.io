@@ -1,3 +1,1 @@
-# NotNoneX.github.io
-
-HomePage
+# HomePage
