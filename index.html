@@ -23,7 +23,7 @@
             <div class="headPhoto"></div>
             <!-- 介绍 -->
             <div class="meBox-title">
-                <p>I'm NotNoneX</p>
+                <p>I'm NotNoneX </p>
                 <div class="fg"></div>
             </div>
             <div class="meBox-text">
@@ -33,8 +33,8 @@
             </div>
             <!-- 两个按钮 -->
             <div class="meBox-Button">
-                <a href="#">Index</a>
-                <a href="http://NotNoneX.gitee.io">Contact</a>
+                <a href="javascript:;">Hello</a>
+                <a href="javascript:;">World</a>
             </div>
         </div>
 
@@ -66,11 +66,11 @@
                     <span style="color: blue;">~</span>
                     <span style="color: rgb(39, 39, 39);">cat /More.txt</span>
                     <p>目前状态：</p>
-                    <li>无所事事</li>
-                    <li>啥也不会</li>
+                    <li>up! up! up!</li>
+                    <li>疯狂内卷中...</li>
                     <span style="color: rgb(0, 190, 0);">root@NotNoneX</span>
                     <span style="color: blue;">~</span>
-                    <span style="color: rgb(39, 39, 39);">rm -rf /</span>
+                    <span style="color: rgb(39, 39, 39);">rm -rf .</span>
                     <p>zsh: 请输入密码: ****</p>
                     <p>zsh: 已删除</p>
                     <span style="color: rgb(0, 190, 0);">root@NotNoneX</span>
@@ -87,7 +87,7 @@
                 </div>
                 <!-- 顶部标题 -->
                 <div class="title">
-                    <span>Crystal Sugar - bash</span>
+                    <span>Rock Candy - bash</span>
                 </div>
                 <!-- 终端内文字 -->
                 <div class="cmdText">
@@ -96,8 +96,8 @@
                     <span style="color: rgb(39, 39, 39);">./Links.sh</span>
                     <p>My Other Site</p>
                     <ul class="ul">
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Love</a></li>
+                        <li><a href="javascript:;">Home</a></li>
+                        <li><a href="javascript:;">Other</a></li>
                     </ul>
                     <span style="color: rgb(0, 190, 0);">root@NotNoneX</span>
                     <span style="color: blue;">~</span>
@@ -117,7 +117,7 @@
 
     <!-- 页脚 -->
     <div id="footer">
-        <p>Copyrights © 2021 · By NotNoneX</p>
+        <p id="cop">Copyrights © 2021 - 2099 · By NotNoneX</p>
     </div>
     <script>
         fetch('https://v1.hitokoto.cn')
@@ -134,6 +134,7 @@
         var age = nowYear - birth;
         var ageText = "年龄："+ age + "岁"
         document.getElementById("showage").innerText = ageText;
+        document.getElementById("cop").innerText = "Copyrights © 2021 - " + nowYear +" · By NotNoneX";
     </script>
 </body>
 
