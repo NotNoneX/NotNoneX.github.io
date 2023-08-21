@@ -1,140 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
-
-    <title>NotNoneX | 冰糖</title>
-    <meta name="description"
-        content="冰糖,冰糖の主页,冰糖的主页,主页.">
-    <meta name="keywords" content="NotNoneX,冰糖,主页,博客">
-    <link rel="stylesheet" type="text/css" href="./css/FiraCode.css">
-    <link rel="stylesheet" type="text/css" href="./css/NotNoneX.css">
-    <link rel="icon" href="./favicon.ico">
-</head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+  <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/images/icon/favicon.ico">
+  <link rel="apple-touch-icon" href="/images/logo/apple-touch-icon.png" />
+  <link rel="bookmark" href="/images/logo/apple-touch-icon.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="200x200" href="/images/logo/apple-touch-icon.png" />
+  <meta name="description" content="一个默默无闻的主页" />
+  <meta name="keywords" content="冰糖,个人主页,NotNoneX" />
+  <meta name="author" content="冰糖" />
+  <meta name="theme-color" content="#424242" />
+  <title>冰糖の主页</title>
+  <!-- HarmonyOS Sans -->
+  <!-- 本站 CDN 已开启防盗链，非本站域名不可访问，请更改链接为下方内容，否则自定义字体将失效 -->
+  <link rel="stylesheet" href="https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css" />
+  <!-- <link rel="stylesheet" href="https://cdn.imsyy.top/gh/imsyy/file/font/HarmonyOS_Sans/regular.min.css" /> -->
+  <!-- IE Out -->
+  <script>
+    if ( /*@cc_on!@*/ false || (!!window.MSInputMethodContext && !!document.documentMode))
+      window.location.href =
+      "https://support.dmeng.net/upgrade-your-browser.html?referrer=" + encodeURIComponent(window.location.href)
+  </script>
+  <script type="module" crossorigin src="/assets/index-a3aedb7b.js"></script>
+  <link rel="stylesheet" href="/assets/index-ad4427bb.css">
+<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
 
 <body>
-    <div id="box">
-        <!-- 个人资料卡片 -->
-        <div class="meBox">
-            <!-- 头像 -->
-            <div class="headPhoto"></div>
-            <!-- 介绍 -->
-            <div class="meBox-title">
-                <p>I'm NotNoneX</p>
-                <div class="fg"></div>
-            </div>
-            <div class="meBox-text">
-                    <p>别人都说我烂泥扶不上墙</p>
-                    <p>可我为什么要上墙</p>
-                    <p>躺地上不舒服吗?</p>
-            </div>
-            <!-- 两个按钮 -->
-            <div class="meBox-Button">
-                <a href="#">Index</a>
-                <a href="http://NotNoneX.gitee.io">Contact</a>
-            </div>
-        </div>
-
-        <!-- 伪终端介绍 -->
-        <div id="cmdBox">
-            <!-- 第一个终端 -->
-            <div class="cmd">
-                <!-- 三个按钮 -->
-                <div class="click">
-                    <div class="red"></div>
-                    <div class="yellow"></div>
-                    <div class="green"></div>
-                </div>
-                <!-- 顶部标题 -->
-                <div class="title">
-                    <span>NotNoneX - bash</span>
-                </div>
-                <!-- 终端内文字 -->
-                <div class="cmdText">
-                    <span style="color: rgb(0, 190, 0);">root@NotNoneX</span>
-                    <span style="color: blue;">~</span>
-                    <span style="color: rgb(39, 39, 39);">cat /Me.txt</span>
-                    <p>自我介绍：</p>
-                    <p>昵称：冰糖</p>
-                    <p>性别：男</p>
-                    <p id="showage">年龄：xx岁</p>
-                    <p>地址：云南，中国</p>
-                    <span style="color: rgb(0, 190, 0);">root@NotNoneX</span>
-                    <span style="color: blue;">~</span>
-                    <span style="color: rgb(39, 39, 39);">cat /More.txt</span>
-                    <p>目前状态：</p>
-                    <li>无所事事</li>
-                    <li>啥也不会</li>
-                    <span style="color: rgb(0, 190, 0);">root@NotNoneX</span>
-                    <span style="color: blue;">~</span>
-                    <span style="color: rgb(39, 39, 39);">rm -rf /</span>
-                    <p>zsh: 请输入密码: ****</p>
-                    <p>zsh: 已删除</p>
-                    <span style="color: rgb(0, 190, 0);">root@NotNoneX</span>
-                    <span style="color: blue;">~</span>
-                </div>
-            </div>
-            <!-- 第二个终端 -->
-            <div class="cmd cmd2">
-                <!-- 三个按钮 -->
-                <div class="click">
-                    <div class="red"></div>
-                    <div class="yellow"></div>
-                    <div class="green"></div>
-                </div>
-                <!-- 顶部标题 -->
-                <div class="title">
-                    <span>Crystal Sugar - bash</span>
-                </div>
-                <!-- 终端内文字 -->
-                <div class="cmdText">
-                    <span style="color: rgb(0, 190, 0);">root@NotNoneX</span>
-                    <span style="color: blue;">~</span>
-                    <span style="color: rgb(39, 39, 39);">./Links.sh</span>
-                    <p>My Other Site</p>
-                    <ul class="ul">
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Love</a></li>
-                    </ul>
-                    <span style="color: rgb(0, 190, 0);">root@NotNoneX</span>
-                    <span style="color: blue;">~</span>
-                    <span style="color: rgb(39, 39, 39);">./Hitokoto.sh</span>
-                    <p>这里是一言:
-                    <p id="hitokoto">嘛，一言获取中🤣...</p>
-                    <span style="color: rgb(0, 190, 0);">root@NotNoneX</span>
-                    <span style="color: blue;">~</span>
-                    <span style="color: rgb(39, 39, 39);">./Weather.sh</span>
-                    <p>这里是天气：</p>
-                    <iframe scrolling="no" src="https://tianqiapi.com/api.php?style=tu&skin=pitaya" frameborder="0"
-                        width="350" height="24" allowtransparency="true"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- 页脚 -->
-    <div id="footer">
-        <p>Copyrights © 2021 · By NotNoneX</p>
-    </div>
-    <script>
-        fetch('https://v1.hitokoto.cn')
-        .then(response => response.json())
-        .then(data => {
-            const hitokoto = document.getElementById('hitokoto')
-            hitokoto.innerText = data.hitokoto + '\n---' +data.from
-        })
-    .catch(console.error)
-    </script>
-    <script>
-        var birth = 1999;
-        var nowYear = new Date().getFullYear();
-        var age = nowYear - birth;
-        var ageText = "年龄："+ age + "岁"
-        document.getElementById("showage").innerText = ageText;
-    </script>
+  <!-- 主体内容 -->
+  <div id="app"></div>
+  <!-- noscript -->
+  <noscript>
+    <div style="text-align: center">请开启 JavaScript</div>
+  </noscript>
+  
 </body>
 
 </html>
