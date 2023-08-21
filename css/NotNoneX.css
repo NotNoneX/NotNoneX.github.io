@@ -39,7 +39,7 @@ body {
 .headPhoto {
     width: 8rem;
     height: 8rem;
-    background: url(https://q1.qlogo.cn/g?b=qq&nk=99021218&s=640) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/NotNoneX/CDN@master/img/NNX_NoBG.png) no-repeat;
     background-size: cover;
     border-radius: 50%;
     position: relative;
