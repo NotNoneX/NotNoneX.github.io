@@ -1,0 +1,42 @@
+{
+    "am": {
+        "about": {
+            "nickname": "昵称：冰糖",
+            "sex": "性别：男",
+            "birth": "1999",
+            "addr": "地址：中国，地球"
+        },
+        "self": "I'm NotNoneX",
+        "footcop": "NotNoneX",
+        "links": {
+            "link1": [
+                "Hello",
+                "javascript:;"
+            ],
+            "link2": [
+                "World",
+                "javascript:;"
+            ]
+        }
+    },
+    "motto": {
+        "nnx1": "别人都说我烂泥扶不上墙",
+        "nnx2": "可我为什么要上墙",
+        "nnx3": "躺地上不舒服吗?"
+    },
+    "status": {
+        "rc1": "up! up! up!",
+        "rc2": "疯狂内卷中..."
+    },
+    "sites": {
+        "site1": [
+            "Home",
+            "javascript:;"
+        ],
+        "site2": [
+            "Love",
+            "javascript:;"
+        ]
+    },
+    "start_time": "2021"
+}

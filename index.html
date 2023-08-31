@@ -7,8 +7,7 @@
         content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
 
     <title>NotNoneX | 冰糖</title>
-    <meta name="description"
-        content="冰糖,冰糖の主页,冰糖的主页,主页.">
+    <meta name="description" content="冰糖,冰糖の主页,冰糖的主页,主页.">
     <meta name="keywords" content="NotNoneX,冰糖,主页,博客">
     <link rel="stylesheet" type="text/css" href="./css/FiraCode.css">
     <link rel="stylesheet" type="text/css" href="./css/NotNoneX.css">
@@ -27,9 +26,9 @@
                 <div class="fg"></div>
             </div>
             <div class="meBox-text">
-                    <p>别人都说我烂泥扶不上墙</p>
-                    <p>可我为什么要上墙</p>
-                    <p>躺地上不舒服吗?</p>
+                <p>冰糖</p>
+                <p>冰糖</p>
+                <p>冰糖</p>
             </div>
             <!-- 两个按钮 -->
             <div class="meBox-Button">
@@ -59,15 +58,15 @@
                     <span style="color: rgb(39, 39, 39);">cat /Me.txt</span>
                     <p>自我介绍：</p>
                     <p>昵称：冰糖</p>
-                    <p>性别：男</p>
+                    <p>性别：神</p>
                     <p id="showage">年龄：xx岁</p>
-                    <p>地址：云南，中国</p>
+                    <p>地址：xx，xx</p>
                     <span style="color: rgb(0, 190, 0);">root@NotNoneX</span>
                     <span style="color: blue;">~</span>
                     <span style="color: rgb(39, 39, 39);">cat /More.txt</span>
                     <p>目前状态：</p>
-                    <li>up! up! up!</li>
-                    <li>疯狂内卷中...</li>
+                    <li>努力成为,</li>
+                    <li>想要成为的人</li>
                     <span style="color: rgb(0, 190, 0);">root@NotNoneX</span>
                     <span style="color: blue;">~</span>
                     <span style="color: rgb(39, 39, 39);">rm -rf .</span>
@@ -119,23 +118,7 @@
     <div id="footer">
         <p id="cop">Copyrights © 2021 - 2099 · By NotNoneX</p>
     </div>
-    <script>
-        fetch('https://v1.hitokoto.cn')
-        .then(response => response.json())
-        .then(data => {
-            const hitokoto = document.getElementById('hitokoto')
-            hitokoto.innerText = data.hitokoto + '\n---' +data.from
-        })
-    .catch(console.error)
-    </script>
-    <script>
-        var birth = 1999;
-        var nowYear = new Date().getFullYear();
-        var age = nowYear - birth;
-        var ageText = "年龄："+ age + "岁"
-        document.getElementById("showage").innerText = ageText;
-        document.getElementById("cop").innerText = "Copyrights © 2021 - " + nowYear +" · By NotNoneX";
-    </script>
+    <script src="./js/depend.js"></script>
 </body>
 
 </html>
