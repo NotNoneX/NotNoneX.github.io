@@ -5,7 +5,7 @@ fetch('https://v1.hitokoto.cn')
         hitokoto.innerText = data.hitokoto + '\n---' + data.from
     })
 
-fetch('https://cdn.jsdelivr.net/gh/NotNoneX/NotNoneX.github.io@master/config/settings.json')
+fetch('/config/settings.json')
     .then(response => response.json())
     .then(data => {
         
