@@ -8,6 +8,8 @@ fetch('https://v1.hitokoto.cn')
 fetch('https://cdn.jsdelivr.net/gh/NotNoneX/NotNoneX.github.io@master/config/settings.json')
     .then(response => response.json())
     .then(data => {
+        const title = document.querySelector('head > title')
+        const fav = document.querySelector('head > link:nth-child(8)')
         const myself = document.querySelector('#box > div.meBox > div.meBox-title > p');
         const motto1 = document.querySelector('.meBox-text>p:nth-child(1)');
         const motto2 = document.querySelector('.meBox-text>p:nth-child(2)');
@@ -22,6 +24,8 @@ fetch('https://cdn.jsdelivr.net/gh/NotNoneX/NotNoneX.github.io@master/config/set
         const site1 = document.querySelector('#cmdBox > div.cmd.cmd2 > div.cmdText > ul > li:nth-child(1) > a')
         const site2 = document.querySelector('#cmdBox > div.cmd.cmd2 > div.cmdText > ul > li:nth-child(2) > a')
 
+        title.innerText = data.base.title;
+        fav.href = data.base.fav;
         myself.innerHTML = data.am.self;
         motto1.innerText = data.motto.nnx1;
         motto2.innerText = data.motto.nnx2;
@@ -46,7 +50,7 @@ fetch('https://cdn.jsdelivr.net/gh/NotNoneX/NotNoneX.github.io@master/config/set
         const age = nowYear - birth;
         const ageText = "年龄：" + age + "岁";
         document.getElementById("showage").innerText = ageText;
-        document.getElementById("cop").innerText = "Copyrights © " + data.start_time + " - " + nowYear + " · By " + data.am.footcop;
+        document.getElementById("cop").innerText = "Copyrights © " + data.base.start_time + " - " + nowYear + " · By " + data.am.footcop;
     })
     .catch(error => {
         console.error('发生错误:', error);
