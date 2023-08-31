@@ -39,7 +39,7 @@
         ]
     },
     "base": {
-        "tit": "NotNoneX | 冰糖",
+        "title": "NotNoneX | 冰糖",
         "fav": "./favicon.svg",
         "start_time": "2021"
     }
