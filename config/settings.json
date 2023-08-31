@@ -40,7 +40,7 @@
     },
     "base": {
         "title": "NotNoneX | 冰糖",
-        "fav": "https://cdn.jsdelivr.net/gh/NotNoneX/NotNoneX.github.io@master/favicon.ico",
+        "fav": "./favicon.ico",
         "start_time": "2021"
     }
     
