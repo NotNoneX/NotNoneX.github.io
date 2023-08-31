@@ -24,7 +24,7 @@ fetch('https://cdn.jsdelivr.net/gh/NotNoneX/NotNoneX.github.io@master/config/set
         const site1 = document.querySelector('#cmdBox > div.cmd.cmd2 > div.cmdText > ul > li:nth-child(1) > a')
         const site2 = document.querySelector('#cmdBox > div.cmd.cmd2 > div.cmdText > ul > li:nth-child(2) > a')
 
-        document.title = data.base.title;
+        document.title = data.base.tit;
         fav.href = data.base.fav;
         myself.innerText = data.am.self;
         motto1.innerText = data.motto.nnx1;
