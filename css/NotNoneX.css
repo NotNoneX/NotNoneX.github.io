@@ -39,7 +39,7 @@ body {
 .headPhoto {
     width: 8rem;
     height: 8rem;
-    background: url(https://cdn.jsdelivr.net/gh/NotNoneX/CDN@master/img/NNX_NoBG.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/NotNoneX/CDN@master/img/avatar/NNX_NoBG.png) no-repeat;
     background-size: cover;
     border-radius: 50%;
     position: relative;
